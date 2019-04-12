@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		937279B1225EF270005E141C /* UIView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937279B0225EF270005E141C /* UIView+Extention.swift */; };
+		938A39B7225DD84900894393 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938A39B6225DD84900894393 /* TableViewCell.swift */; };
 		93E50CC8225CE0BB001FCFB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E50CC7225CE0BB001FCFB8 /* AppDelegate.swift */; };
 		93E50CCA225CE0BB001FCFB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E50CC9225CE0BB001FCFB8 /* ViewController.swift */; };
 		93E50CCD225CE0BB001FCFB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E50CCB225CE0BB001FCFB8 /* Main.storyboard */; };
 		93E50CD0225CE0BB001FCFB8 /* CoreData_ThemSuaXoa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93E50CCE225CE0BB001FCFB8 /* CoreData_ThemSuaXoa.xcdatamodeld */; };
 		93E50CD2225CE0BD001FCFB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93E50CD1225CE0BD001FCFB8 /* Assets.xcassets */; };
 		93E50CD5225CE0BD001FCFB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E50CD3225CE0BD001FCFB8 /* LaunchScreen.storyboard */; };
+		93E50CDD225CE176001FCFB8 /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E50CDC225CE176001FCFB8 /* MasterTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		937279B0225EF270005E141C /* UIView+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extention.swift"; sourceTree = "<group>"; };
+		938A39B6225DD84900894393 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		93E50CC4225CE0BB001FCFB8 /* CoreData_ThemSuaXoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData_ThemSuaXoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93E50CC7225CE0BB001FCFB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93E50CC9225CE0BB001FCFB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		93E50CD1225CE0BD001FCFB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93E50CD4225CE0BD001FCFB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93E50CD6225CE0BD001FCFB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93E50CDC225CE176001FCFB8 /* MasterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				93E50CC7225CE0BB001FCFB8 /* AppDelegate.swift */,
-				93E50CC9225CE0BB001FCFB8 /* ViewController.swift */,
 				93E50CCB225CE0BB001FCFB8 /* Main.storyboard */,
+				93E50CC9225CE0BB001FCFB8 /* ViewController.swift */,
+				938A39B6225DD84900894393 /* TableViewCell.swift */,
+				93E50CDC225CE176001FCFB8 /* MasterTableViewController.swift */,
+				937279B0225EF270005E141C /* UIView+Extention.swift */,
 				93E50CD1225CE0BD001FCFB8 /* Assets.xcassets */,
 				93E50CD3225CE0BD001FCFB8 /* LaunchScreen.storyboard */,
 				93E50CD6225CE0BD001FCFB8 /* Info.plist */,
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				93E50CCA225CE0BB001FCFB8 /* ViewController.swift in Sources */,
+				93E50CDD225CE176001FCFB8 /* MasterTableViewController.swift in Sources */,
+				938A39B7225DD84900894393 /* TableViewCell.swift in Sources */,
 				93E50CC8225CE0BB001FCFB8 /* AppDelegate.swift in Sources */,
 				93E50CD0225CE0BB001FCFB8 /* CoreData_ThemSuaXoa.xcdatamodeld in Sources */,
+				937279B1225EF270005E141C /* UIView+Extention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +358,7 @@
 			currentVersion = 93E50CCF225CE0BB001FCFB8 /* CoreData_ThemSuaXoa.xcdatamodel */;
 			path = CoreData_ThemSuaXoa.xcdatamodeld;
 			sourceTree = "<group>";
+			tabWidth = 5;
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
